@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
     response: {
       title: "An Amazon Web API",
       description:
-        "This is a Web API which allows for clients to use data from Amazon, provided they have the product ID",
+        "This is a Web API which allows for clients to use data from Amazon. To get started, please add the endpoint '/search/ANY_PRODUCT_NAME",
       creator: {
         firstName: "Harshil",
         lastName: "Shah",
@@ -39,7 +39,7 @@ app.get("/search/:searchQuery", async (req, res) => {
 
 
 //general info for products page
-app.get("/products", async (req, res) => {  
+app.get("/products", (req, res) => {  
     res.status(200).send({
         response: {
           title: "Product Details",
