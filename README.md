@@ -4,7 +4,7 @@ Hey everyone! You chose to read about my web scraping API repo! Below are some d
 
 # Why did I make this?: 
 
-Learning front-end through React.js, and looking into Full-Stack development, I wanted to learn about back-end. APIs are used widely, basically in every web application, and
+Learning front-end through React.js, and looking into Full-Stack development, it was time for me to learn about back-end. APIs are used widely, basically in every web application, and
 I wanted to dabble in actually creating one. This led me to create an API which web scrapes data from the Amazon.ca website and presents it to a client in JSON. 
 
 # Technologies/Languages Used:
