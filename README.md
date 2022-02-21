@@ -10,8 +10,9 @@ Java Swing.
 
 # Technologies/Languages Used:
 
-- Java
-- Java Swing
+- Express.js 
+- Node.js
+- Web Scraping API
 
 # Problems/Challenges Faced and What I Learned:
 
