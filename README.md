@@ -1,26 +1,26 @@
 # Amazon Web Scraping API:
 
-Hey everyone! You chose to read about my Sudoku Solver repo! Below are some details if you would like to know more about the development process:
+Hey everyone! You chose to read about my web scraping API repo! Below are some details if you would like to know more about the development process:
 
 # Why did I make this?: 
 
-Learning Object Oriented Programming (OOP) is necessary in becoming a better programmer. Learning Java, I took it upon myself to apply OOP concepts/principles to a game since 
-they usually involve many classes which interact together. All this led to the creation of this Sudoku Solver. To push my limits a bit more, I developed this game using GUI from
-Java Swing.
+Learning front-end through React.js, and looking into Full-Stack development, I wanted to learn about back-end. APIs are used widely, basically in every web application, and
+I wanted to dabble in actually creating one. This led me to create an API which web scrapes data from the Amazon.ca website and presents it to a client in JSON. 
 
 # Technologies/Languages Used:
 
 - Express.js 
 - Node.js
-- Web Scraping API
+- Web Scraping API (Scraper)
 
 # Problems/Challenges Faced and What I Learned:
 
-If I am being honest, the hardest part was learning about the GUI, not applying OOP principles. Although I learned a lot about polymorphism, inheritance, abstraction, and encapsulation, 
-making a GUI was pretty difficult. However, through reading documentation and watching tutorials, I was able to create my own GUI with sound effects.
-
+If I am being honest, this API was not too bad to implement and create. Although, I learned A LOT about creating a back-end service. For example, how to display data collected
+with JSON, requests and responses, creating endpoints, and most importantly, CRUD operations (GET, POST, PUT, DELETE). 
 
 # What's next?:
 
-I have learned quite a lot about OOP concepts and applying it to a game which has a GUI. I think that I am done with this project for now, but if you (the readers) have any
-ideas as to what I can add, please let me know!
+I hope to create more routes, and add more CRUD operations if possible. This is currently deployed on Heroku as a public API, so I also hope to use the data web scraped from 
+Amazon in another web application.
+
+
